@@ -1,50 +1,50 @@
-Secure ATM System (Python):
+# Secure ATM System (Python):
 A console-based ATM simulation built with Python that demonstrates core banking operations, authentication, transaction management, and account security features.
 
-Features:
+# Features:
 Authentication:
 Account number and PIN verification
 Account lock after 3 failed login attempts
 Exit option from login screen
 
-Banking Operations:
+# Banking Operations:
 Check account balance
 Deposit funds
 Withdraw cash
 Fund transfers between accounts
 Mini statement (last 5 transactions)
 
-Security Features:
+# Security Features:
 PIN-based authentication
 Failed login tracking
 Automatic account locking
 Daily withdrawal limits
 
-Transaction Logging:
+# Transaction Logging:
 Every transaction is timestamped
 Deposit history
 Withdrawal history
 Transfer history
 
-Project Structure:
+# Project Structure:
 atm.py
 README.md
 requirements.txt
 
-Sample Accounts:
+# Sample Accounts:
 Account	PIN	Balance
 1001	1234	5000
 1002	4321	10000
 1003	4321	15000 (Locked)
 
-How to Run:
+# How to Run:
 Clone Repository
 git clone https://github.com/yourusername/secure-atm-system.git
 cd secure-atm-system
 Run Application
 python atm.py
 
-Example Usage:
+# Example Usage:
 🏧 Welcome to Secure ATM System
 
 Account number: 1001
@@ -76,7 +76,7 @@ Transaction History Example:
 2026-11-25 11:35:22 | Withdraw 300
 2026-11-25 11:40:51 | Transferred 1000 to 1002
 
-Concepts Demonstrated:
+# Concepts Demonstrated:
 Python Dictionaries
 Functions
 Loops
@@ -88,7 +88,7 @@ State Management
 Transaction Logging
 Simple Banking Logic
 
-Future Enhancements:
+# Future Enhancements:
 SQL Database Integration
 CSV Export
 Admin Dashboard
@@ -99,6 +99,6 @@ Power BI Reporting
 Account Creation Module
 Persistent Transaction Storage
 
-Author:
+# Author:
 Chandramohan Pokuru
 Python Banking Simulation Project
